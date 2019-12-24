@@ -8,5 +8,6 @@ for line in lines:
 	s = line.split(' ')
 	time = s[0][:5]
 	name = s[0][5:]
+	print(time)
 	print(name)
 
